@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Bootstrap 5 Responsive Hosting Pricing Card</title>
+    <style>
+      body {
+      padding: 0;
+      margin: 0;
+      font-family: "Nunito Sans";
+      }
+      ul{
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      }
+      li{
+      padding-bottom: 20px;
+      font-size: 20px;
+      }
+      sub{
+      font-size: 16px;
+      }
+      h1{
+      font-size: 48px;
+      font-weight: 600;
+      }
+      span{
+      font-size: 30px;
+      font-weight: 300;
+      }
+      h5{
+      padding-top: 15px;
+      }
+      .card{
+      height: 100%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+      border-radius: 16px;
+      }
+      .card:hover{
+        box-shadow: 0 0 11px rgba(33,33,33,.2);
+      }
+      .card-body{
+      padding: 25px 0;
+      }
+      .btn{
+      padding: 8px 25px;
+      font-size: 20px;
+      border-radius: 0px;
+      }
+      .btn-custom{
+      background-color: #0F044C;
+      color: #fff;
+      }
+      .btn-custom:hover{
+      background-color: #fff;
+      color: #0F044C;
+      border-color:#0F044C ;
+      }
+      @media(max-width: 575px){
+      .container{
+      width: 90%;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container p-0 mt-5 mb-5">
+      <h1 class="text-center pb-4">Bootstrap 5 Responsive Pricing Card</h1>
+      <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <div class="card-body text-center">
+              <div class="border-bottom">
+                <h3>Basic</h3>
+                <h1><sub>$</sub>5<span>/ month</span></h1>
+              </div>
+              <p></p>
+              <ul>
+                <li><b>1</b> Domain</li>
+                <li><b>5</b> SubDomain</li>
+                <li><b>10GB</b> SDD space</li>
+                <li>24/7 support</li>
+                <li>One-click Set-up</li>
+              </ul>
+              <button type="button" class="btn btn-custom">Purchase now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body text-center">
+              <div class="border-bottom">
+                <h3>Stater</h3>
+                <h1><sub>$</sub>15<span>/ month</span></h1>
+              </div>
+              <p></p>
+              <ul>
+                <li><b>10</b> Domain</li>
+                <li><b>Unlimited</b> SubDomain</li>
+                <li><b>25GB</b> SDD space</li>
+                <li>24/7 support</li>
+                <li>One-click Set-up</li>
+              </ul>
+              <button type="button" class="btn btn-custom">Purchase now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body text-center">
+              <div class="border-bottom">
+                <h3>Professional</h3>
+                <h1><sub>$</sub>25<span>/ month</span></h1>
+              </div>
+              <p></p>
+              <ul>
+                <li><b>30</b> Domain</li>
+                <li><b>Unlimited</b> SubDomain</li>
+                <li><b>50GB</b> SDD space</li>
+                <li>24/7 support</li>
+                <li>One-click Set-up</li>
+              </ul>
+              <button type="button" class="btn btn-custom">Purchase now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body text-center">
+              <div class="border-bottom">
+                <h3>Premium</h3>
+                <h1><sub>$</sub>50<span>/ month</span></h1>
+              </div>
+              <p></p>
+              <ul>
+                <li><b>Unlimited</b> Domain</li>
+                <li><b>Unlimited</b> SubDomain</li>
+                <li><b>100GB</b> SDD space</li>
+                <li>24/7 support</li>
+                <li>One-click Set-up</li>
+              </ul>
+              <button type="button" class="btn btn-custom">Purchase now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
